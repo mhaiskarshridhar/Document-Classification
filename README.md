@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# Document-Classificaiton
 Recommendation system to suggest similar websites as per required description
 
 
@@ -11,8 +9,7 @@ import re
 import string
 import pandas as pd
 from functools import reduce
-=======
-# Document-Classificaiton
+
 Recommendation system to suggest similar websites as per required description
 
 
@@ -24,5 +21,7 @@ import re
 import string
 import pandas as pd
 from functools import reduce
->>>>>>> 7b1723efb2f35680a6fd677425a3e1c91a01ebe1
 from math import log
+import matplotlib.pyplot as plt
+from sklearn.manifold import TSNE
+from sklearn.decomposition import TruncatedSVD
